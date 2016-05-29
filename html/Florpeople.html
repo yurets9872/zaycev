@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head lang="uk-UA">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <meta name="viewport" content="width=device-width">
+    <title>Zaycev Studio | Florpeople </title> 
+    
+    <link rel="stylesheet" href="../css/styleFlorpeople.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script src="../js/AnchorScroller.js"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <script src="../js/script.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+       <script>
+        jQuery("document").ready(function($){
+            var nav = $('#header');
+            $(window).scroll(function () {
+                console.log(window.scrollY,window.innerHeight);
+                nav.toggleClass('fixed',window.scrollY>window.innerHeight);
+            });
+        });
+    </script>
+    </head> 
+ <body>
+    <div id="wrapper">
+        <div id="header">
+           <div class="outer">
+            <div class="inner">
+            <div class="logo">
+                <a href="index.html" title=""><img src="../img/logo.svg" alt=""/></a>
+                <div class="logo-title">Студія Вадима Зайцева</div>
+            </div>
+            <div class="lang">
+                <ul>
+                <li><a class="active" href="#NULL">RU</a><span class="lnr lnr-chevron-down"></span></li>
+                <li><a href="#NULL">EN</a></li>
+                <li><a href="#NULL" >UA</a></li>
+                </ul>
+            </div>
+            <div class="case-nav">
+                <a href="../html/Florpeople.html" class="prev"><img src="../img/prev.png" alt="prev"></a>
+                <a href="../index.html" class="works">Роботи</a>
+                <div class="case-name">Інтернет-магазин «FlorPeople»</div>
+                <a href="#NULL" class="next"><img src="../img/next-blur.png" alt=""></a>
+            </div>
+            <div class="nav-btn" ></div> 
+              <div id="nav" class="nav">
+               <div class="close" style="cursor:pointer;"></div>
+                <ul>
+                    <li><a class="active menu-item" href="#about"  >ПРО НАС</a></li>
+                    <li><a class="menu-item" href="#ocup"  >ПОСЛУГИ</a></li>
+                    <li><a class="menu-item" href="#works" >РОБОТИ</a></li>
+                    <li><a class="menu-item" href="#review" >ВІДГУКИ</a></li>
+                    <li><a class="menu-item" href="#contactsID" >КОНТАКТИ</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div id="title">
+         <div class="text">
+             <h1>Інтернет-магазин «FlorPeople»</h1>
+             <hr class="line">
+    </div>
+            <div class="discript">
+                <p>Студія квіткового дизайну звернулась до нас з проханням створини для них сайт який би розповів про їхні послуги та зручним інтернет-магазином з онлайн оплатою.</p>
+                <a href="#">www.florpeople.com</a>
+            </div>
+     </div>
+        <div id="background"></div>
+        <div id="container">
+            <div class="content">
+            <div class="screen"><img src="../img/perspective-glass.png" alt="Perspective-glass"></div>
+                <div class="quote">
+            Дизайн сайту виконаний в сучасному стилі з елементами плоского дизайну та реалізму. Головна сторінка сайту показує з скількома системами, мовами програмування та платформами приходиться зіштовхуватися сучасному бізнесу, який просуває свій товар чи послуги в інтернеті.
+                </div>
+            </div>
+
+        </div>
+        <div class="safari"><img src="../img/safari.png" alt="Safari"/></div>
+          <div id="job">
+            <div class="content">
+                <div class="text">
+                    <div class="title">
+                        Виконана робота
+                    </div>
+                    <div class="discr">
+                        Всього було спроектовано та відмальовано пятнадцять унікальних макетів сторінок, що задовольняють всі можливі потреби компанії. Також був продуманий інтерфейс адмін частини.
+                    </div>
+                </div>
+                <div class="right-page">
+                    <img src="../img/portfolio.png" alt="portfolio"/>
+                </div>
+                <div class="left-page">
+                    <img src="../img/page1.png" alt="page"/>
+                </div>
+          </div>
+        </div>
+        <div id="bitmap">
+            <a href="http://goup.biz.ua/">ПЕРЕЙТИ НА САЙТ</a>
+        </div>
+        <div id="discuss">
+            <div class="content">
+                    <div class="title">
+                        Давайте розпочнемо нашу співпрацю
+                    </div>
+                    <div class="discr">
+                        Ми створюємо продуманий, практичний, функціональний і якісний дизайн, яким зручно та приємно користуватися.
+                    </div>
+                <p id="btn" onclick="myFunс()">ОБСУДИТИ ВАШ ПРОЕКТ</p>
+                <form action="" id="block">
+                    <input type="text" placeholder="Ім'я"/>
+                    <input type="text" placeholder="Телефон"/>
+                    <textarea name="" id="" cols="" rows="" placeholder="Введіть текст" ></textarea>
+                    <input class="btn" type="submit" value="НАДІСЛАТИ">
+                </form>
+                <script>
+                 function myFunс(){
+                     (document.getElementById("block").style.display="block")
+                     && (document.getElementById("btn").style.display="none");
+                    }
+                </script>
+            </div>
+        </div>
+        <div id="footer">
+           <div class="content">
+               <div class="left">
+                   <h3>м. Чернівці, вул. Головна, 59, 3-й поверх</h3>
+                   <a href="#">дивитися на мапі</a>
+               </div>
+               <div class="links">
+                  <a href="#"><img src="../img/facebook.svg" alt="Facebook" title="Facebook"
+                    /></a>
+                    <a href="#"><img src="../img/pinterest.svg" alt="Pinterest" title="Pinterest"></a>
+                    <a href="#"><img src="../img/instagram.svg" alt="Instagram" title="Instagram"/></a>
+                    <a href="#"><img src="../img/vk.svg"alt="VKontakte" title="VKontakte"/></a><br>
+                    <a class="zs" href="#">© 2015 Zaycevstudio.com</a>
+               </div>
+               <div class="right">
+                   <h2>(050) 734-37-31 </h2>
+                   <p>info@zaycevstudio.com</p>
+               </div>
+           </div>
+        </div>
+    </div>
+</body>
+</html>

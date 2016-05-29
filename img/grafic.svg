@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="59px" height="59px" viewBox="0 0 59 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Create</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-513.000000, -999.000000)">
+            <g id="chym_zaimaimos" sketch:type="MSLayerGroup" transform="translate(0.000000, 838.000000)">
+                <g id="Create" transform="translate(513.000000, 161.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-192" stroke="#000000" stroke-width="2" fill="#000000" x="3.63482666" y="25.0749512" width="58.1572266" height="2.42321777" rx="1"></rect>
+                    <g id="Path-164" stroke-width="2" stroke="#000000">
+                        <path d="M27.2612,14.7762756 L13.3276978,0.842773437 L0,14.1704712 L13.9335022,28.1039734 L15.7509155,26.2865601 L3.63482666,14.1704712 L13.3276978,4.4776001 L25.4437866,16.593689 L27.2612,14.7762756 Z M44.2237244,31.7388 L58.1572266,45.6723022 L44.8295288,59 L30.8960266,45.0664978 L32.7134399,43.2490845 L44.8295288,55.3651733 L54.5223999,45.6723022 L42.406311,33.5562134 L44.2237244,31.7388 Z"></path>
+                    </g>
+                    <path d="M47.0502335,1.04528647 C47.8312315,0.2642885 49.0977595,0.264568597 49.8787467,1.04555579 L57.9544442,9.1212533 C58.7355909,9.90240001 58.7354251,11.1690548 57.9547135,11.9497665 L15.7509155,54.1535645 L0,59 L4.84643555,43.2490845 L47.0502335,1.04528647 Z" id="Path-165" stroke="#000000" stroke-width="2"></path>
+                    <path d="M0,57.7883911 L2.42321777,49.3071289 L8.48126221,55.3651733 L0,57.7883911 Z" id="Path-166" fill="#000000"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

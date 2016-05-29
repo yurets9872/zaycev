@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="27px" viewBox="0 0 20 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>pinterest</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-671.000000, -4662.000000)" stroke="#9B9B9B" stroke-width="1.499" stroke-linecap="round" stroke-linejoin="round">
+            <g id="contact" sketch:type="MSLayerGroup" transform="translate(-1.000000, 3817.000000)">
+                <g id="social" transform="translate(606.500000, 846.000000)" sketch:type="MSShapeGroup">
+                    <path d="M73.0705,11.8887436 C72.9635,14.3992436 74.013,16.1437436 76.2205,17.1407436 C77.235,17.6207436 78.2855,17.7462436 79.3895,17.5502436 C80.5465,17.3182436 81.544,16.7317436 82.4155,15.7517436 C83.946,14.0612436 84.711,12.0137436 84.73,9.59324355 C84.73,7.08324355 83.857,4.93024355 82.13,3.13174355 C80.4035,1.33374355 78.3215,0.444243555 75.8645,0.461243555 C73.4265,0.444243555 71.3255,1.33374355 69.599,3.13174355 C67.8715,4.93024355 67,7.08324355 67,9.59324355 C67,10.7502436 67.178,11.8187436 67.534,12.8152436 M73.0705,11.8887436 C73.052,11.8537436 73.052,11.8187436 73.0345,11.7822436 L73.0875,11.4622436 C73.0705,11.6047436 73.0705,11.7472436 73.0705,11.8887436 M73.0345,11.7822436 C72.144,8.32924355 72.4465,6.58474355 73.96,6.54974355 M73.0875,11.4622436 L73.96,6.74474355 M70.631,24.6877436 L73.0345,11.7822436" id="pinterest"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

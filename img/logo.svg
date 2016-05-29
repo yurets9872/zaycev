@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: bin/sketchtool 1.4 (305) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with bin/sketchtool.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-154.000000, 0.000000)">
+            <g id="heder" sketch:type="MSLayerGroup" transform="translate(154.000000, 0.000000)">
+                <g id="Logo" sketch:type="MSShapeGroup">
+                    <g id="logo">
+                        <rect id="Rectangle-3" fill="#FF3B30" x="0" y="0" width="58" height="58"></rect>
+                        <path d="M23.7305699,8.33823529 L23.7305699,28.3382353 L27.2305699,28.3382353 L27.2305699,8.33823529 L23.7305699,8.33823529 Z M32.0362694,8.33823529 L32.0362694,28.3382353 L35.5362694,28.3382353 L35.5362694,8.33823529 L32.0362694,8.33823529 Z" id="Rectangle-4" fill="#FFFFFF"></path>
+                        <path d="M20.1709845,38.1176471 L20.1709845,41.6176471 L23.6709845,41.6176471 L23.6709845,38.1176471 L20.1709845,38.1176471 Z M34.4093264,38.1176471 L34.4093264,41.6176471 L37.9093264,41.6176471 L37.9093264,38.1176471 L34.4093264,38.1176471 Z" id="Rectangle-6" fill="#FFFFFF"></path>
+                        <path d="M13.1450367,42.2468936 L11.865285,43.6344828 C11.865285,43.6344828 17.9136109,50.0294118 28.7067797,50.0294118 C39.4999485,50.0294118 46.2746114,43.5931292 46.2746114,43.5931292 L44.2440003,41.6911765 C44.2440003,41.6911765 37.4546239,47.4201122 28.7458573,47.4201122 C20.0370906,47.4201122 13.1450367,42.2468936 13.1450367,42.2468936 Z" id="Path-5" fill="#FFFFFF" transform="translate(29.069948, 45.860294) scale(-1, 1) translate(-29.069948, -45.860294) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

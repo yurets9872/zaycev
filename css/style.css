@@ -1,0 +1,1176 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+*{padding: 0; margin: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100%;
+    background-image: url("../img/bwstripes-blur-35.png")  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     /*background: rgba(89,96,98,0.51);*/
+
+     }
+@font-face {
+     font-family: 'PT Sans', sans-serif;
+     src: local("PT Sans"),
+        url(../fonts/PT%20Sans/PTS56F.ttf);
+}
+@keyframes aaa {
+    0% {
+        top:-58px;
+    }
+    100% {
+        top:0;
+    } 
+}
+
+/*
+
+section{border-bottom: 2px solid #ff3b30;}
+*/
+  .swiper-container {
+      display: none;
+        max-width: 500px;
+        height: 300px;
+/*        margin: 20px auto;*/
+    }
+    .swiper-wrapper{
+        background-color: #f7f7f7;
+/*        height: 300px;*/
+        
+    }
+    .swiper-slide {
+        text-align: left;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+            cursor: pointer;
+    }        
+        /*  BOXES      */
+
+    .swiper-container .box .box-inner{
+        padding: 20px 5%;
+    }
+    .swiper-container .box img{
+        height: 54px;
+    }
+    #ocupation .swiper-container .box h2{
+        padding: 20px 0 20px 0;
+        font-weight: 100;
+        font-size: 26px;
+    }
+    .swiper-container .box p{
+        width: 100%;
+        line-height: 1.3;
+        color: #818181;
+    font-weight: 100;
+        font-size: 16px;  
+    }
+    .swiper-container-horizontal > .swiper-pagination {
+        bottom: 0px;
+    }
+
+#wrapper {
+    overflow: hidden;
+    min-width: 300px;
+}
+/*
+.owerlay{
+    position: absolute;
+    top: -139px;
+    width: 100%;
+    min-height: 815px;
+    background: rgba(89,96,98,0.35);
+    opacity: 0.8;
+    z-index: 1;
+}
+*/
+#header{
+    height: 58px;
+/*
+    position: relative;
+    position: fixed;
+    max-width: 1130px;
+    min-width: 960px;
+    margin: 0 auto;
+    display: block;
+    z-index: 2;
+*/
+}
+#header .outer {
+    position: relative;
+    height: 50px;
+     z-index: 10;
+}
+#header .inner {
+    position: relative;
+     max-width: 1130px;
+
+    margin: 0 auto;
+}
+#header .logo{
+    float: left;
+}
+#header .logo a img{
+   width: 58px;
+}
+#header .logo a img:hover .logo-title {
+   visibility: visible;
+}
+#header .logo .logo-title{
+    color: #fff;
+    font-size: 12px;
+    background-color: #ff3b30;
+    position: relative;
+    top: -5px;
+    left: 58px;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    visibility: hidden;
+}
+#header .logo:hover > #header .logo .logo-title{
+    visibility: visible;
+}
+#header .lang{
+    position: relative;
+    float: right;
+    width: 22px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    overflow: hidden;
+    line-height: 1.5;
+    text-align: center;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    padding: 4px;
+    border: 1px solid transparent;
+    
+}
+#header .lang ul{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    
+    }
+#header .lang:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid #333;
+    overflow: hidden;
+    height: 70px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    /*box-sizing: padding-box;*/
+}
+#header .lang ul li a{
+    font-family: PT Sans,sans-serif;
+    font-size: 0.750em;
+    color: #fff;
+}
+#header .lang ul li a:hover{
+color: #ff3b30;
+}
+#header .nav{
+    float: right;
+    line-height: 45px;
+
+}
+#header .nav ul li{
+    display: inline;
+    margin-right: 30px;
+    text-align: center;
+
+}
+#header .nav ul li a{
+    font-family: PT Sans,sans-serif;
+    font-size: 0.750em;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+#header .nav ul li a:hover{
+    border-bottom: 2px solid #ff3b30;
+}
+#header .nav ul li a.active{
+    border-bottom: 2px solid #ff3b30;
+}
+#header .nav .close{
+    background-image: url(../img/rectangle-10-copy.png);
+    max-width: 30px;
+    height: 30px;
+    position: relative;
+    right: -90%;
+    top: 25px;
+    display: none;
+}
+#header .nav-btn{
+display: none;
+  background-image: url(../img/ring.svg);
+  max-width: 30px;
+  height: 21px;
+  position: relative;
+  top: 12px;
+  left: 90%;
+  transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+}
+#header .nav-btn:hover{
+ background-image: url(../img/ring.png);
+ cursor:pointer;
+}
+
+.inner{
+    height: 58px;
+    margin: 0 auto;
+}
+#header.fixed .outer{
+    top:0;
+    left:0;
+    right:0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    animation: aaa linear .1s;
+}
+#header.fixed .outer{
+   height: 45px;
+    line-height: 5px;
+}
+#header.fixed .outer .lang{
+    margin-top: 9px;
+}
+#header.fixed .outer .logo a img{
+    width: 45px;
+    height: 45px;
+}
+
+.header-box{
+    z-index: 1;
+    max-width: 906px;
+    margin: 100px auto;
+    text-align: left;
+    position:relative;
+}
+.header-box .tagline{
+    color: #ffffff;
+    font-size: 3.5em;
+    font-family: PT Sans,sans-serif;
+    font-weight: bold;
+    /*text-align: left;*/
+    line-height: 1.2;
+    text-shadow: -1px 1px 0 rgba(0,0,0,0.23);
+}
+.header-box a {
+    position: relative;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: PT Sans,sans-serif;
+    color: #ffffff;
+    padding: 20px 50px;
+    border: 1px solid #ffffff;
+    transition: 450ms;
+    -webkit-transition: 450ms;
+    -moz-transition: 450ms;
+}
+.header-box a:hover {       /*кнопка"Обсудить ваш проект"*/
+    background-color: #ffffff;
+    color: #ff3b30;
+}
+#ocupation{
+    position: relative;
+    top: 270px;
+    width: 100%;
+    min-height:585px ;
+    display: block;
+    background-color: #f7f7f7;
+}
+#ocupation .content{
+    max-width:1130px;
+    margin: 0 auto;
+    display: block;
+}
+ #ocupation .content .title{
+   padding: 50px 0 0 20px;
+float: left;
+font-size: 2.25em;
+font-weight: bold;
+ }
+#ocupation .content{
+    max-width:1130px;
+}
+#ocupation .content .boxes{
+     max-width:1130px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 130px;
+ }
+#ocupation .content .boxes .box-wrapper{
+float: none;
+}
+#ocupation .content .boxes .box {
+    max-width:25%;
+    float: left;
+}
+#ocupation .content .boxes .box .box-inner{
+    padding: 20px 10%;
+}
+#ocupation .content .boxes .box img{
+    height: 54px;
+}
+#ocupation .content .boxes .box h2{
+    padding: 20px 0 20px 0;
+    font-weight: 100;
+}
+#ocupation .content .boxes .box p{
+    width: 90%;
+    line-height: 1.3;
+}
+#vkomforti{
+    position: relative;
+    top: 270px;
+    width: 100%;
+    min-height:660px ;
+    display: block;
+    background-color: #ffea65;
+}
+#vkomforti .content{
+    max-width: 1130px;
+    margin: 0 auto;
+    display: block;
+ }
+#vkomforti .pic{
+
+ }
+#vkomforti img.pic{
+     max-width: 600px;
+    position: absolute;
+    top: 100px;
+    right: 65%;
+}
+#vkomforti .text{
+   position: relative;
+    top: 80px;
+    width: 50%;
+    margin-left: 50%;
+ }
+#vkomforti .text h1{
+    max-width: 555px;
+    color: #000;
+    font-size: 3.5em;
+    font-family: PT Sans,sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    /*text-shadow: -1px 1px 0px rgba(0,0,0,0.23);*/
+}#vkomforti .text hr.line{
+     margin-top: 20px;
+     width: 327px;
+     border: 2px solid #000;
+ }
+ #vkomforti .text p{
+     margin-top: 35px;
+     font-size: 1em;
+     color: #000000;
+     max-width: 555px;
+     line-height: 1.3;
+ }
+#vkomforti a.case {
+    position: relative;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: PT Sans,sans-serif;
+    color: #000;
+    padding: 20px 50px;
+    border: 1px solid #000;
+    transition: 450ms;
+    -webkit-transition: 450ms;
+    -moz-transition: 450ms;
+}
+#vkomforti a:hover {
+    background: #000;
+    color: #ff9900;
+}
+#florpeople{
+    position: relative;
+    top: 270px;
+    width: 100%;
+    min-height:660px ;
+    display: block;
+    background-color: #d2d5da;
+}
+#florpeople .content{
+    max-width: 1130px;
+    margin: 0 auto;
+    display: block;
+}
+#florpeople .pic{
+
+}
+#florpeople img.pic{
+    max-width: 800px;
+    position: absolute;
+    top: 75px;
+    right: 50%;
+}
+#florpeople .text{
+    position: relative;
+    top: 80px;
+    width: 50%;
+    margin-left: 50%;
+}
+#florpeople .text h1{
+    max-width: 555px;
+    color: #000;
+    font-size: 3.5em;
+    font-family: PT Sans,sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    /*text-shadow: -1px 1px 0px rgba(0,0,0,0.23);*/
+}#florpeople .text hr.line{
+     margin-top: 20px;
+     width: 327px;
+     border: 2px solid #000;
+ }
+#florpeople .text p{
+    margin-top: 35px;
+    font-size: 1em;
+    font-size: 1em;
+    color: #000000;
+    max-width: 555px;
+    line-height: 1.3;
+}
+#florpeople a {
+    position: relative;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: PT Sans,sans-serif;
+    color: #000;
+    padding: 20px 50px;
+    border: 1px solid #000;
+    transition: 450ms;
+    -webkit-transition: 450ms;
+    -moz-transition: 450ms;
+}
+#florpeople a:hover {
+    background: #000;
+    color: #ff005b;
+}
+
+
+#GoUp{
+    position: relative;
+    top: 270px;
+    width: 100%;
+    min-height:660px ;
+    display: block;
+    background-image:url(../img/Go_bg@2x.png);
+}
+#GoUp .content{
+    max-width: 1130px;
+    margin: 0 auto;
+    display: block;
+}
+#GoUp .pic{
+
+}
+#GoUp img.pic{
+    max-width: 565px;
+    position: absolute;
+    top: 80px;
+    right: 55%;
+}
+#GoUp .text{
+    position: relative;
+    top: 80px;
+    width: 50%;
+    margin-left: 50%;
+}
+#GoUp .text h1{
+    max-width: 555px;
+    color: #000;
+    font-size: 3.5em;
+    font-family: PT Sans,sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    /*text-shadow: -1px 1px 0px rgba(0,0,0,0.23);*/
+}#GoUp .text hr.line{
+     margin-top: 20px;
+     width: 327px;
+     border: 2px solid #000;
+ }
+#GoUp .text p{
+    margin-top: 35px;
+    font-size: 1em;
+    color: #000000;
+    max-width: 555px;
+    line-height: 1.3;
+}
+#GoUp a {
+    position: relative;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: PT Sans,sans-serif;
+    color: #000;
+    padding: 20px 50px;
+    border: 1px solid #000;
+    transition: 450ms;
+    -webkit-transition: 450ms;
+    -moz-transition: 450ms;
+}
+#GoUp a:hover {
+    background: #000;
+    color: #ff3333;
+}
+
+#stages{
+    position: relative;
+    top: 270px;
+    width: 100%;
+    min-height:550px ;
+    display: block;
+    background-color: #ffffff;
+}
+#stages .content{
+    max-width: 1130px;
+    margin: 0 auto;
+    display: block;
+}
+#stages .content h1{
+          padding: 50px 0 0 20px;
+        margin-bottom: 40px;
+  }
+
+#stages .content .stage-box{
+    width: 20%;
+    float: left;
+    position: relative;
+}
+#stages .content .stage-box .stage-inner{
+    padding: 20px 10%;
+}
+#stages .content .stage-box img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+#stages .content .stage-box .line1{
+/*    content: "";*/
+    max-width: 60px;
+    width: 60%;
+    border-bottom: 1px dashed #ff3b30;
+    height: 1px;
+    position: relative;
+    top: -70px;
+    right: -105px;
+}
+#stages .content .stage-box .line1::after{
+    content:"";
+    width: 0px;
+    height: 0px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #FF3B30;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+#stages .content .stage-box h2{
+    margin-bottom: 40px;
+    font-weight: 100;
+    color: #4a4a4a;
+    font-size: 1.125em;
+}
+#stages .content .stage-box p{
+    line-height: 1.3;
+    font-size: 1em;
+    color: #818181;
+}
+
+#reviews{
+    position: relative;
+    top: 200px;
+    width: 100%;
+    min-height:530px ;
+    display: block;
+    background-color: #ffffff;
+}
+#reviews .content{
+    max-width: 1130px;
+    margin: 0 auto;
+    display: block;
+}
+#reviews .content .title{
+    padding: 20px 0 0 20px ;
+    margin-bottom: 60px;
+    font-size: 200%;
+    font-weight: bold;
+    width: 525px;
+}
+#reviews .content .reviews-box{
+    width: 31%;
+    float: left;
+    margin: 0 1%;
+    padding: 20px 15px;
+    border: 1px dotted #979797 ;
+    box-sizing: border-box;
+    position: relative;
+}
+#reviews .content .reviews-box:after{
+   content: "";
+    background-image: url(../img/rectangle-18-copy.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    bottom: -26px;
+    left: 45px;
+    background-position: 0% 50%;
+}
+#reviews .content .reviews-box .reviews-box-header{
+width: 100%;
+}
+#reviews .content .reviews-box .reviews-box-header img{
+float: left;
+}
+#reviews .content .reviews-box .reviews-box-header .name{
+margin-left: 30%;
+}
+#reviews .content .reviews-box .name h2{
+    font-size: 1.125em;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+#reviews .content .reviews-box .name h3{
+    font-size: 0.813em;
+    color: #9b9b9b;
+    max-width: 180px;
+    margin-bottom: 25px;
+}
+#reviews .content .reviews-box p{
+    font-size: 0.875em;
+    color: #4a4a4a;
+    float: left;
+}
+
+#contacts{
+    position: relative;
+    top: 140px;
+    width: 100%;
+    height: auto;
+    min-height:980px ;
+    display: block;
+    background-color: #333333;
+}
+#contacts .content{
+    max-width: 1130px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+#contacts .content .title{
+    font-size: 4em;
+    color: #e7e7e7;
+    margin: 0 auto;
+    padding-top: 45px;
+    font-weight: bold;
+}
+#contacts .content .address{
+    width: 601px;
+    margin: 40px auto;
+}
+#contacts .content .address .left{
+    padding: 0px 1%;
+    position: relative;
+    text-align: right;
+    max-width: 47%;
+    float: left;
+    box-sizing: border-box;
+}
+#contacts .content .address .left a{
+    font-size: 0.875em;
+    color: #4a90e2;
+
+}
+#contacts .content .address .left a:hover{
+    border-bottom: 1px solid #4a90e2;
+}
+#contacts .content .address h2 {
+    font-size: 2.250em;
+    color: #e7e7e7;
+}
+#contacts .content .address h3{
+    font-size: 1.250em;
+    color: #e7e7e7;
+}
+#contacts .content .address h4 {
+    font-size: 1.250em;
+    color: #e7e7e7;
+}
+#contacts .content .address p {
+    font-size: 1.250em;
+    color: #e7e7e7;
+    float: left;
+}
+#contacts .content .address .right{
+    float: right;
+    padding: 0px 4%;
+}
+#contacts .content h4{
+    font-size: 2.250em;
+    color: #e7e7e7;
+    margin: 0 auto;
+    padding-top: 115px;
+}
+#contacts form{
+    max-width: 820px;
+    height: 390px;
+    margin: 40px auto;
+    border: 1px solid #4a4a4a;
+}
+#contacts input{
+    margin: 2%;
+    width: 42%;
+    height: 30px;
+    background: #3a3a3a repeat scroll 0% 0%;
+    padding: 5px;
+    color: #9B9B9B;
+    border: outset transparent;
+    border: 1px solid #4a4a4a;
+    font-family: PT Sans, sans-serif;
+    font-size: 0.875em;
+    padding-left: 15px;
+    /* треба покласти до цего транспорент по ходу   border: outset;*/
+}
+#contacts textarea{
+    margin: 20px;
+    width: 94%;
+    height: 150px;
+    background: #3a3a3a repeat scroll 0% 0%;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #9B9B9B;
+    border: outset transparent;
+    border: 1px solid #4a4a4a;
+    resize: none;
+    font-family: PT Sans,sans-serif;
+    font-size: 0.875em;
+    color:9b9b9b;
+}
+
+#contacts .btn {
+    margin: 20px;
+    max-width: 160px;
+    height: 55px;
+    background: #3a3a3a repeat scroll 0% 0%;
+    padding: 5px;
+    color: #ff3b30;
+    border: outset transparent;
+    border: 1px solid #4a4a4a;
+    font-family: PT Sans, sans-serif;
+    font-size: 0.875em;
+    float: left;
+    transition: 450ms;
+    -webkit-transition: 450ms;
+    -moz-transition: 450ms;
+}
+#contacts .btn:hover {
+      background: #ff3b30;
+    color: #000;
+  }
+/*#contacts .btn:active {*/
+    /*box-shadow: none;*/
+/*}*/
+#contacts .footer{
+    max-width: 270px;
+    min-height: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+#contacts .footer img{
+    padding: 0 20px;
+}
+#contacts .footer a.zs{
+    font-size: 0.875em;
+    font-family: PT FSans,sans-serif;
+    position: relative;
+    top: 70px;
+    color: #4a4a4a;
+    transition: 100ms;
+}   
+
+#header input{
+    visibility: hidden;
+ 
+}
+#header label{
+    position: absolute;
+    right: 0;
+    top:15px;
+    visibility: hidden;
+}
+#header label:after {
+    content: "\2261";
+    color: #fff;
+    font-size: 2.125em;
+}
+
+
+@media screen and (max-width: 1025px){
+    .swiper-container{
+        display: none;
+    }
+    #header .lang{margin-right: 10px;}
+/*    .header-box{max-width: 905px;}*/
+    #wrapper .content{max-width: 905px; margin: 0 auto;}
+    #florpeople img.pic{left: -60px;}
+    #GoUp img.pic{
+        left: -10%;
+    }
+    #wrapper .content .text h1{ font-size: 3.125em;}
+}
+@media screen and (max-width: 801px){
+/*    .owerlay{min-height: 650px;}*/
+    .header-box{ max-width: 660px; }
+    .header-box .tagline{font-size: 2.750em; padding: 0 5%;}
+    .header-box a{left: 25% }
+    #ocupation{top: 200px; min-height: 720px;}
+    #ocupation .content .boxes .box {max-width:50%;float: left;}
+    #vkomforti{ top: 200px;}
+    #vkomforti img.pic{left: 0;}
+    #florpeople{ top: 200px;}
+    #florpeople img.pic{left: -120px;}
+    #GoUp{ top: 200px;}
+    #GoUp img.pic{left: -21%;}
+    #stages{ top:200px; min-height: 770px;}
+    #stages .content .stage-box{width: 33.33%}
+    #reviews{top:160px;}
+    #reviews .content .last{display: none;}
+    #reviews .content .reviews-box{width: 46%; margin: 0 2%;}
+    #contacts{ top:100px;}
+    #contacts .content h4{font-size: 2em;}
+    #contacts form{max-width: 655px; }
+ }
+@media screen and (max-width: 769px){
+    #header .nav ul {margin-top: 20px;}
+    #header .nav ul li {margin: 10px auto;}
+    #header .nav ul li a {font-family: PT Sans,sans-serif;font-size: 1.750em;}
+    .header-box .tagline{font-size: 2em; padding: 0 5%;}
+    #header .nav-btn{display: block;}
+    .nav{
+        display: none;
+    width: 100%;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    margin-top: -2px;
+    height: 100%;
+    min-height: 800px;
+    background: #4a4a4a;
+    z-index: 100;
+        background-color: rgba(0, 0, 0, 0.9);
+}
+/*
+    #header .nav ul{
+        margin-top: 50px;
+    }
+*/
+    #header .nav ul li{
+      text-align: center;
+      display: block;
+      margin: 20px auto 20px auto;
+/*      font-size: 52px;*/
+    }
+    #header .lang{
+        display: none;
+        z-index: 300;
+        float: left;
+        margin-left: -8%;
+        border: 1px solid #fff;
+        box-shadow: none;
+    }
+    .lang{display: none;}
+    #vkomforti{ min-height: 940px;}
+    #vkomforti img.pic{max-width: 300px;position: absolute;left: 25%;top: 370px;  }
+    #vkomforti .text{position: relative;width: 100%;margin-left: 50px;top: 40px;}
+    #florpeople{ min-height: 940px;}
+    #florpeople img.pic{max-width: 700px;position: absolute;left: 10%;top: 390px;}
+    #florpeople .text{position: relative;width: 100%;margin-left: 50px;top: 40px;}
+    #GoUp{ min-height: 940px;}
+    #GoUp img.pic{ max-width: 500px; position: absolute;left: 15%;top: 450px;}
+    #GoUp .text{position: relative;width: 100%;margin-left: 50px;top: 40px;}
+}
+
+@media screen and (max-width: 641px){ 
+/*    .owerlay{min-height: 693px;}*/
+    #header .logo a img {width: 48px;}
+    #header .nav ul {margin-top: 20px;}
+    #header .nav ul li {margin: 10px auto;}
+    #header .nav ul li a {font-family: PT Sans,sans-serif;font-size: 1.750em;}
+    #ocupation{min-height: 485px;}
+    #ocupation .content .title{font-size: 1.875em;}
+    #ocupation .content .boxes{display: none;}
+    #ocupation .content .swiper-container{ display: block; width: 100%; 
+/*        padding-top: 20px;*/
+        }
+    #florpeople img.pic{left: 0;}
+    #GoUp img.pic{left: 0;}
+    #stages{min-height: 500px;}
+    #stages .content .stage-box{display: none;}
+    #stages .content .swiper-container{ display: block; width: 100%;}
+    #stages .content .swiper-container .stage-box{ width: 100%; float: left;position: relative;display: block;
+    }
+    #stages .content .swiper-container .stage-box .stage-inner{
+        padding: 20px 10%;
+    }
+    #stages .content .swiper-container .stage-box img{height: 60px;margin-bottom: 30px;
+    }
+    #stages .content .swiper-container .stage-box .line1{content: "";max-width: 60px;width: 60%;border-bottom: 1px dashed #ff3b30;height: 1px;position: relative;top: -70px;right: -105px;
+    }
+    #stages .content .swiper-container .stage-box .line1::after{
+        content:"";
+        width: 0px;
+        height: 0px;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-left: 4px solid #FF3B30;
+        position: absolute;
+        top: -2px;
+        right: -2px;
+    }
+    #stages .content .swiper-container .stage-box h2{
+        margin-bottom: 40px;
+        font-weight: 100;
+        color: #4a4a4a;
+        font-size: 1.125em;
+    }
+    #stages .content .swiper-container .stage-box p{
+        line-height: 1.3;
+        font-size: 1em;
+        color: #818181;
+    }
+    #reviews .content .title{margin-bottom: 30px;}
+    #reviews .content .reviews-box{display: none;}
+    #reviews .content .swiper-container{ display: block; width: 100%;}
+    #reviews .swiper-container .reviews-box{
+    width: 100%;
+    float: left;
+    margin: 0 1%;
+    padding: 20px 15px;
+    border: 1px dotted #979797 ;
+    box-sizing: border-box;
+        display: block;
+}
+    #reviews .swiper-container .reviews-box .reviews-box-header{
+    width: 100%;
+    }
+    #reviews .swiper-container .reviews-box .reviews-box-header img{
+    float: left;
+    }
+    #reviews .swiper-container .reviews-box .reviews-box-header .name{
+    margin-left: 30%;
+    }
+    #reviews .content .reviews-box .name h2{
+        font-size: 1.125em;
+        font-weight: normal;
+        margin-bottom: 5px;
+    }
+    #reviews .swiper-containert .reviews-box .name h3{
+        font-size: 0.813em;
+        color: #9b9b9b;
+        max-width: 180px;
+        margin-bottom: 25px;
+    }
+    #reviews .swiper-container .reviews-box p{
+        font-size: 0.875em;
+        color: #4a4a4a;
+        float: left;
+    }
+    #contacts form{max-width: 610px; border: 0px; }
+    #contacts input{margin: 2% 1%;}
+}
+
+
+@media screen and (max-width: 541px){ 
+/*    .owerlay{min-height: 823px;}*/
+    #header .nav .close{right: -85%;}
+    #header .lang{ margin-left: -25%;}
+    #header .nav-btn{left:85%;}
+    .header-box a {
+        padding: 20px 15%;
+        margin: 0 auto 0 auto;
+        left: 0px;
+        display: block;
+        max-width: 60%;
+        text-align: center;
+}
+    #vkomforti {min-height: 825px;}
+    #vkomforti .text{margin-left: 0}
+    #vkomforti .content .text h1{font-size:1.875em;
+    padding: 0 3%;}
+    #vkomforti .text hr.line {
+        /*margin-top: 20px;*/
+        width: 300px;
+        border: 2px solid #000;
+        margin: 20px 15px;
+    }
+    #vkomforti .text p{
+        max-width: 345px;
+        padding: 0 3%;}
+    #vkomforti img.pic {
+    max-width: 230px;
+    position: absolute;
+    left: 15%;
+    top: 385px;
+}
+    #vkomforti a.case{
+        /*padding: 20px 60px;*/
+        display: block;
+        text-align: center;
+        margin: 0px auto;
+        max-width: 57%;
+        font-size: 14px;
+    }
+     #florpeople {min-height: 825px;}
+    #florpeople .text{margin-left: 0;}
+    #florpeople .content .text h1{font-size:1.875em;
+     padding: 0 3%;}
+    #florpeople .text hr.line {
+        /*margin-top: 20px;*/
+        width: 300px;
+        border: 2px solid #000;
+        margin: 20px 15px;
+    }
+    #florpeople .text p{max-width: 345px;
+     padding: 0 3%;}
+    #florpeople img.pic {
+    max-width: 620px;
+    position: absolute;
+    left: -25%;
+    top: 385px;
+}
+    #florpeople a{
+        /*padding: 20px 60px;*/
+        display: block;
+        text-align: center;
+        margin: 0px auto;
+        max-width: 57%;
+        font-size: 14px;
+    }
+     #GoUp {min-height: 730px;}
+    #GoUp .text{margin-left: 0;}
+    #GoUp .content .text h1{font-size:1.875em;
+    padding: 0 3%;}
+    #GoUp .text hr.line {
+               width: 300px;
+        border: 2px solid #000;
+        margin: 20px 15px ;
+    }
+    #GoUp .text p{max-width: 345px;
+    padding: 0 3%;}
+    #GoUp img.pic {
+    max-width: 320px;
+    position: absolute;
+    left: -3%;
+    top: 400px;
+}
+    #GoUp a{
+        /*padding: 20px 60px;*/
+        display: block;
+        text-align: center;
+        margin: 0px auto;
+        max-width: 57%;
+        font-size: 14px;
+    }
+
+#stages .content h1{
+    font-size: 1.575em;
+}
+#reviews .content .title {
+    margin-bottom: 30px;
+    font-size: 1.575em;
+    max-width: 330px;
+}
+#contacts .content .address{width:100%;}
+#contacts .content .address .left{
+    max-width:100%; 
+    text-align: center; 
+    padding: 0px 7%;
+}
+    #contacts .content .address h3 {
+    font-size: 18px;
+    color: #e7e7e7;
+}
+#contacts .content .address .right{max-width:100%; float: none; text-align: center;}
+#contacts .content .address .right p{ float: none;}
+#contacts .content h4{ padding: 0;}
+#contacts textarea{width: 90%; margin: 0 auto;}
+#contacts input {
+    margin: 3% 0%;
+    width: 82%;
+    margin: 30px auto;
+    display: block;
+}
+#contacts .btn {width: 90%; max-width: 100%; margin: 30px 5%;}
+
+}
+@media screen and (max-width: 481px){
+#vkomforti .text p { max-width: 435px;}
+#florpeople .text p { max-width: 435px;}
+#GoUp .text p { max-width: 435px;}
+}
+@media screen and (max-width: 389px){
+ .header-box {
+    max-width: 660px;
+    margin: 50px auto -35px;
+}
+    #vkomforti .text hr.line {
+        width: 90%;
+        margin: 20px auto;
+    }
+    #florpeople .text hr.line {
+        width: 90%;
+        margin: 20px auto;
+    }
+    #GoUp .text hr.line {
+        width: 90%;
+        margin: 20px auto;
+    }
+/*
+    #vkomforti .text hr.line {
+    width: 90%;
+}
+*/
+   
+}
+
